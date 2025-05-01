@@ -1,12 +1,51 @@
-# React + Vite
+# iTask – Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A responsive React.js application to manage your daily tasks in one place.**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Demo](#demo)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running Locally](#running-locally)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Built With](#built-with)
+- [What I Learned](#what-i-learned)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Demo
+![iTask Screenshot](./screenshot.png)  
+*A sample view of the iTask interface on desktop and mobile.*
+
+---
+
+## Features
+- **Add Todos Instantly**  
+  Plan your day without missing a beat—enter a task and hit Add.  
+- **Edit & Update Tasks**  
+  Click the edit icon to correct or update a task in place.  
+- **Mark Complete / Incomplete**  
+  Toggle checkboxes to track your progress and stay motivated.  
+- **Show/Hide Completed**  
+  Focus mode: filter out finished tasks to concentrate on what’s left.  
+- **Delete with Style**  
+  Remove tasks easily with the delete button.  
+- **Persistent Storage**  
+  All tasks are saved in `localStorage` and survive page refreshes and browser restarts.  
+- **Responsive UI**  
+  Built with Tailwind CSS to look great on all devices.  
+
+---
+
+## Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [npm](https://www.npmjs.com
